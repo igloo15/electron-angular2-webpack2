@@ -1,0 +1,23 @@
+{
+  "name": "electron_template",
+  "version": "0.1.0",
+  "description": "Template for electron, angular2, and webpack 2",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://igloo15@igloo15.duckdns.org/igloo15/ElectronTemplate.git"
+  },
+  "keywords": [
+    "angular2",
+    "electron",
+    "webpack"
+  ],
+  "author": "igloo15",
+  "license": "ISC"
+}
