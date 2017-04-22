@@ -2,7 +2,7 @@
   "name": "electron_template",
   "version": "0.1.0",
   "description": "Template for electron, angular2, and webpack 2",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "doc": "docs"
   },
@@ -19,5 +19,9 @@
     "webpack"
   ],
   "author": "igloo15",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.5",
+    "electron-packager": "^8.6.0"
+  }
 }
