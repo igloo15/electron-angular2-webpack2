@@ -2,12 +2,13 @@
   "name": "electron_template",
   "version": "0.1.0",
   "description": "Template for electron, angular2, and webpack 2",
-  "main": "dist/index.js",
+  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:electron": "node ./configs/electron-win-build.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "author": "igloo15",
   "license": "ISC",
   "devDependencies": {
+    "copy": "^0.3.0",
     "electron": "^1.6.5",
     "electron-packager": "^8.6.0"
   }

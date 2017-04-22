@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/web,node,typings,webstorm,visualstudio,visualstudiocode
 
+dist
+
 ### Node ###
 # Logs
 logs
