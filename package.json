@@ -17,6 +17,8 @@
     "build:electron:dev": "npm run build:web:dev && node ./configs/electron-build.js",
     "build:electron:prod": "npm run build:web:prod && node ./configs/electron-build.js",
     "webpack": "webpack",
+    "start:electron":"npm run start:electron:prod",
+    "start:electron:prod":"npm run build:electron:prod && electron dist/web",
     "server": "npm run server:dev",
     "server:dev": "webpack-dev-server --config configs/webpack.dev.js --open --progress --profile --watch --content-base src/",
     "server:dev:hmr": "npm run server:dev -- --inline --hot",

@@ -46,6 +46,10 @@ module.exports = {
                 test: /\.css$/,
                 include: helpers.root('src', 'app'),
                 loader: 'raw-loader'
+            },
+            {
+                test:/\electron.window.js$/,
+                loader:'file-loader?name=index.js'
             }
         ]
     },
