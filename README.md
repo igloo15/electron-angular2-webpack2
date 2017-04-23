@@ -19,8 +19,6 @@ yarn install
 
 This will install all dependencies
 
-
-
 ## Deployment
 
 Run npm command
@@ -33,6 +31,7 @@ This will create in the dist/electron folder electron applications ready for dep
 
 * [webpack](https://webpack.github.io/) - The build tool
 * [electron](https://electron.atom.io/) - Native Deployment App
+* [electron-packager](https://github.com/electron-userland/electron-packager) - Packages electron apps for deployment
 * [angular2](https://angular.io/) - The web framework
 
 ## Contributing
