@@ -4,14 +4,14 @@ const path = require('path');
 const fs = require('fs');
 
 const electronPackageOptions = {
-    dir:'./dist',
+    dir:'./dist/web',
     out:'./dist/electron',
     overwrite:true,
     arch:'all',
     platform:'all',
 };
 
-copy('package.json', 'dist', {overwrite: true}, function(err, files){
+copy('package.json', 'dist/web', {overwrite: true}, function(err, files){
     
     if(err){
       console.log(err);

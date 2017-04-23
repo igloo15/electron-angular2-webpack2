@@ -7,8 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
+    "clean": "rimraf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:electron": "node ./configs/electron-win-build.js"
+    "build:electron": "npm run clean && node ./configs/electron-build.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "copy": "^0.3.0",
     "electron": "^1.6.5",
-    "electron-packager": "^8.6.0"
+    "electron-packager": "^8.6.0",
+    "rimraf": "^2.6.1"
   }
 }
