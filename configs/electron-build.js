@@ -18,7 +18,8 @@ copy('package.json', 'dist/web', {overwrite: true}, function(err, files){
       throw err;
     }
     
-    console.log("STARTING PACKAGING");
+    console.log("");
+    console.log("STARTING ELECTRON PACKAGING STAGE");
     packager(electronPackageOptions, function(err, appPaths){
       if(err){
         console.log(err);
